@@ -1,0 +1,90 @@
+#banner{
+    width: 100%;
+    background-color: #fafafe;
+    /* margin: auto; */
+    /* display: flex; */
+    /* flex-direction: colmn; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    padding-bottom: 3em;
+}
+#banner .uask{
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+#banner .slo{
+    margin: auto;
+}
+#banner h1{
+    font-size: 40px;
+    max-width: 466px;
+color:#405fbd;
+}
+#banner span p{
+    line-height: 30px;
+    font-size: 16px;
+    opacity: .6;
+    margin-bottom: 0;
+}
+#banner h3{
+    margin-bottom: 0.5em;
+    color: #405fbd;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.35;
+}
+#banner .imageslide{
+    display: flex;
+    width: 20%;
+    justify-self: flex-end;
+}
+#banner .bcard span{
+    display: inline-block;
+    font-size: small;
+    color: #141414;
+    margin-top: 1.5em;
+    padding-inline: .5em;
+}
+#banner .span1{
+    text-align: center;
+}
+#banner .but{
+    border: 1px solid #fff;
+    box-shadow: none;
+    border-radius: 1rem;
+    background: #f1fbee;
+    height: 12rem;
+    width: 100%;
+    white-space: normal;
+}
+#banner .ask{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:3em;
+
+}
+#banner .img22{
+    display: flex;
+    margin-top: 6em;
+    padding-left: 2em;
+    justify-content: flex-start;
+    gap: 3em;
+}
+.img22 img{
+    opacity: .6;
+}
+#banner .bcard{
+    box-sizing: border-box;
+    border-radius: 1.5rem!important;
+    background-color: #fff!important;
+    padding: 1rem!important;
+    max-width: 85%;
+    margin-top: 48px;
+    width: 466px;
+    height: 295px;
+    cursor: pointer;
+}

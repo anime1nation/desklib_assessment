@@ -1,3 +1,4 @@
+import AskQue from "./components/askque/AskQue";
 import Expertise from "./components/expertise/Expertise";
 import Features from "./components/features/Features";
 import HomeWork from "./components/home-work-sol/HomeWork";
@@ -7,11 +8,12 @@ import SmartStudy from "./components/smartstudy/SmartStudy";
 export default function Home() {
   return (
     <>
-      <SmartStudy/>
-      <Expertise/>
+      <AskQue />
+      <SmartStudy />
+      <Expertise />
       <Features />
       <HomeWork />
-      <Reader/>
+      <Reader />
     </>
   );
 }

@@ -46,6 +46,9 @@
     flex-flow:nowrap ;
 }
 @media (max-width:992px){
+    #reader{
+        padding: 20px 40px;
+    }
     #reader .card{
         flex-direction: column;
     }

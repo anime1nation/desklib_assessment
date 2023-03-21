@@ -3,10 +3,10 @@ import "./askque.css";
 import pic from "../../../../assets/svg/askPic.svg";
 import bold from "../../../../assets/svg/askBold.svg";
 import menu from "../../../../assets/svg/askmenu.svg";
-import b1 from "../../../../assets/images/b1.webp";
-import b2 from "../../../../assets/images/b2.webp";
-import b3 from "../../../../assets/images/b3.webp";
-import b4 from "../../../../assets/images/b4.webp";
+// import b1 from "../../../../assets/images/b1.webp";
+// import b2 from "../../../../assets/images/b2.webp";
+// import b3 from "../../../../assets/images/b3.webp";
+// import b4 from "../../../../assets/images/b4.webp";
 
 export default function AskQue() {
   return (

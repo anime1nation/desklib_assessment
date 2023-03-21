@@ -1,0 +1,59 @@
+#reader{
+    background-color: #ffff;
+    padding: 40px 80px;
+}
+#reader h2{
+    text-align: center;
+}
+#reader .card{
+    display: flex;
+    gap: 3em;
+    margin: 3em;
+}
+#reader .ca{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    box-sizing: border-box;
+    background-color: #ffff;
+    border-radius: 2em;
+    margin: auto;
+    gap: 2em;
+    flex:1;
+    transition: 1s;
+}
+#reader .ca:hover{
+    transform: scale(1.2);  
+}
+#reader h5{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+#reader p{
+    margin-top: 1rem;
+    display: block;
+    color: #303030;
+    font-weight: 400;
+    text-align: left;
+    opacity: .4;
+    margin-bottom: 0;
+}
+#reader .spa{
+    display: flex;
+    justify-content: space-around;
+    flex-flow:nowrap ;
+}
+@media (max-width:992px){
+    #reader .card{
+        flex-direction: column;
+    }
+    #reader .ca{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .ca .img1{
+        width: 100%;
+    }
+}

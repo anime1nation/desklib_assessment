@@ -1,0 +1,87 @@
+#features_page {
+  padding-block: 4em;
+  width: 80%;
+  margin: auto;
+}
+#features_page .heading{
+  text-align: center;
+}
+#features_page .bg1 {
+  background: linear-gradient(
+    to right,
+    rgb(196, 232, 177) 0%,
+    rgb(196, 232, 177) 80%,
+    #fafafe 80%,
+    #fafafe 100%
+  );
+}
+#features_page .bg2 {
+  background: linear-gradient(
+    to right,
+    rgb(229, 242, 254) 0%,
+    rgb(229, 242, 254) 80%,
+    #fafafe 80%,
+    #fafafe 100%
+  );
+}
+#features_page .bg3 {
+  background: linear-gradient(
+    to right,
+    rgb(189, 180, 244) 0%,
+    rgb(189, 180, 244) 80%,
+    #fafafe 80%,
+    #fafafe 100%
+  );
+}
+#features_page .card{
+  width: 80%;
+    padding: 4em;
+    display: flex;
+    gap: 4em;
+    border-radius: 2em 0 0 2em;
+    flex:1;
+}
+#features_page .card_content{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+#features_page .under-line {
+  border-bottom: 0.1em solid #4a4dc7;
+  width: 45%;
+}
+#features_page .phone_img{
+  display: none;
+}
+#features_page .primary_btn{
+  align-self: flex-start;
+}
+
+@media (max-width:1100px){
+  #features_page .bg1{
+background: rgb(196, 232, 177);
+  }
+  #features_page .bg2{
+background:rgb(229, 242, 254) ;
+  }
+  #features_page .bg3{
+background: rgb(189, 180, 244);
+  }
+  #features_page .card{
+    border-radius: 2em;
+    padding: 2em;
+    min-height: 30em;
+    margin-top: 2em;
+  }
+  #features_page .phone_img{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  #features_page .pc_img{
+    display: none;
+  }
+  #features_page .primary_btn{
+    align-self: center;
+  }
+}

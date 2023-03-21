@@ -1,0 +1,120 @@
+#header{
+    display:flex;
+    padding-block: 1em;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5em;
+    width: 90%;
+    margin:0 auto;
+    flex-wrap: inherit;
+}
+  #header .header_search {
+    padding-left: 0.5em;
+    margin:10px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+  }
+  .header_search-icon{
+    padding-right: 5px;
+  }
+  .head{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+  .searchbox{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 2px solid #090909;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+  .btn1{
+    border: 1px solid rgb(6, 6, 219);
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+    color:#4a4dc7;
+    padding: 0.5em 2em;
+  }
+  .btn2{
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color:#4a4dc7;
+    border: 0px solid rgb(251, 251, 252);
+    color: white;
+    cursor: pointer;
+    padding: 0.5em 2em;
+  }
+  .btn2:hover{
+    background-color: #7075d4;
+  }
+.linkspan > span{
+    font-size: 16px;
+    border-bottom-color:2px solid #090909;
+}
+a{
+    text-decoration: none;
+    color: #000000D9;
+}
+a:hover{
+    color: blue;
+    
+}
+.linkspan{
+    display:flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.dash{
+    border-bottom-color: blue;
+}
+.btn{
+    display:flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.bt{
+  display: flex;
+  gap:1em;
+}
+.side{
+  display:none;
+}
+.whats{
+      z-index: 40;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+@media (max-width: 992px) {
+  .linkspan,.btn{
+    display: none;
+  }
+  .side{
+    display: block;
+  justify-content: flex-end;
+  position: relative;
+} 
+}
+@media (max-width:700px) {
+.searchbox{display: none;}
+}
+
+.linksidebar{
+  display: flex;
+  flex-direction: column;
+top: 214%;  
+position: absolute;
+  background-color: #fff;
+  right: 0;
+  z-index: 100;
+  padding: 1em;
+  align-items: flex-start;
+  min-width: 13em;
+  gap:2em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

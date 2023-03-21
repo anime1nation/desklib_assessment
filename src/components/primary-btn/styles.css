@@ -1,0 +1,13 @@
+.primary_btn{
+border-radius: 2em;
+background-color: #4a4dc7;
+color: #fff;
+cursor: pointer;
+padding: 0.5em 2em;
+line-height: 2em;
+}
+.primary_btn:hover{
+    background-color: #7075d4;
+    color: #fff;
+    transition: .2s ease-out;
+}

@@ -1,0 +1,86 @@
+#home_work {
+  background-color: #fafafe;
+  text-align: center;
+  padding-block: 4em;
+}
+#home_work .para{
+    opacity: .4;
+
+}
+p {
+  text-align: center;
+}
+.carousal_card:hover {
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.react-multi-carousel-track {
+  gap: 2em;
+  padding: 1em 0;
+}
+.react-multi-carousel-list{
+    margin-top: 4em;
+}
+
+.carousal_card button {
+  cursor: pointer;
+}
+
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+  background: none;
+  background-image: url("../../../../assets/svg/arrowLeft.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+  background: none;
+  background-image: url("../../../../assets/svg/arrowRight.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.react-multiple-carousel__arrow::before {
+  display: none;
+}
+#home_work .carousal_card {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  margin: 2em;
+}
+#home_work .carousal_card:hover{
+    box-shadow: 0px 2px 11px 4px #d1cece;
+}
+#home_work .img_box img {
+  width: 16em;
+  height: 10em;
+  filter: contrast(0.5);
+  border-radius: 1em;
+}
+#home_work .doc_btn {
+  border: none;
+  outline: none;
+  background-color: #4a4dc7;
+  border-radius: 1em;
+  padding: 0.5em 2em;
+  color: #fff;
+}
+#home_work .react-multi-carousel-dot-list {
+  display: none;
+}
+@media (max-width: 600px) {
+  .react-multi-carousel-track {
+    gap: 0;
+  }
+  #home_work .carousal_card {
+    max-width: 16em;
+    margin: 2em;
+  }
+  #home_work .react-multi-carousel-dot-list {
+    display: flex;
+  }
+}

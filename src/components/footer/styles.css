@@ -1,0 +1,33 @@
+.footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+  width: 100%;
+
+  padding-block: 5%;
+}
+.f-detail {
+  margin-block: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+}
+.subject,
+.pages,
+.support,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.img {
+  filter: invert(100%);
+}

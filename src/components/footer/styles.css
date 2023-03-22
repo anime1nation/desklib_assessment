@@ -1,4 +1,4 @@
-.footer {
+#footer {
   margin-top: auto;
   display: flex;
   flex-direction: column;
@@ -9,25 +9,34 @@
 
   padding-block: 5%;
 }
-.f-detail {
+#footer .f-detail {
   margin-block: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 70%;
 }
-.subject,
-.pages,
-.support,
-.contact {
+#footer .subject,
+#footer .pages,
+#footer .support,
+#footer .contact {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-li {
+#footer li {
   text-decoration: none;
   list-style-type: none;
 }
-.img {
+#footer .imgw {
+  filter: invert(100%);
+}
+#footer .imgf{
+  display:flex;
+  gap: 1em;
+  padding-top: 1em;
+  justify-content: space-between;
+}
+#footer .f{
   filter: invert(100%);
 }

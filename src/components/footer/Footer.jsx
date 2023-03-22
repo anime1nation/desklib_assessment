@@ -1,10 +1,15 @@
 import React from "react";
 import whatsapp from '../../assets/svg/whatsapp.svg'
 import "./styles.css";
+import f1 from "../../assets/svg/facebook.svg"
+import f2 from "../../assets/svg/instagram.svg"
+import f3 from "../../assets/svg/linkedin.svg"
+import f4 from "../../assets/svg/redit.svg"
+import f5 from "../../assets/svg/twiter.svg"
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div id="footer">
       <div className="f-detail">
         <div className="subject">
           <h3>Subjects</h3>
@@ -41,15 +46,15 @@ export default function Footer() {
           <li>Privacy Policy</li>
         </div>
         <div className="contact">
-          <h3><img className="img" src={whatsapp} alt="a"/>+1-312 997 5479</h3>
+          <h3><img className="imgw" src={whatsapp} alt="a"/>+1-312 997 5479</h3>
           <li>Chat with our experts. we are online and ready to help.</li>
           <h3>Follow Us</h3>
           <div className="imgf">
-            {/* <img src={f1}/>
-            <img src={f2}/>
-            <img src={f3}/>
-            <img src={f4}/>
-            <img src={f5}/> */}
+            <a href="/" ><img className="f" src={f1} alt="a"/></a>
+            <a href="/" ><img className="f" src={f2} alt="a"/></a>
+            <a href="/" ><img className="f" src={f3} alt="a"/></a>
+            <a href="/" ><img className="f" src={f4} alt="a"/></a>
+            <a href="/" ><img className="f" src={f5} alt="a"/></a>
           </div>
         </div>
       </div>
